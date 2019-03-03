@@ -59,7 +59,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 ;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1541086397, // * UNIX timestamp of last checkpoint block
+    1551583711, // * UNIX timestamp of last checkpoint block
     1,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     720        // * estimated number of transactions per day after checkpoint
@@ -129,7 +129,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1541086397;
+        genesis.nTime = 1551583711;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 0;
 
@@ -231,7 +231,7 @@ public:
         nMaxMoneyOut = 15000000000 * COIN;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1541086397;
+        genesis.nTime = 1551583711;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 3161322;
 
@@ -301,7 +301,7 @@ public:
         nTargetSpacing = 1 * 60;
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nSubsidyHalvingInterval = 262800;
-        genesis.nTime = 1541086397;
+        genesis.nTime = 1551583711;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 3161322;
 
