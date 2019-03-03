@@ -307,7 +307,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-       /* while (genesis.GetHash() > hashTarget)
+        while (genesis.GetHash() > hashTarget)
         {
             ++genesis.nNonce;
             if (genesis.nNonce == 0)
@@ -320,10 +320,10 @@ public:
 				printf("nonce %08u: hash = %s \n", genesis.nNonce, genesis.GetHash().ToString().c_str());
 			}
         }
-        /*printf("RT nNonce %u\n", genesis.nNonce);
+        printf("RT nNonce %u\n", genesis.nNonce);
 	    printf("RT hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
 	    printf("RT hashMerkleRoot %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        printf("RT nTime %u\n", genesis.nTime);*/
+        printf("RT nTime %u\n", genesis.nTime);
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 22988;
