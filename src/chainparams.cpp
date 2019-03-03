@@ -55,7 +55,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of(0, uint256("0x00000377e842c72eb7666b937b09153af325558cd021e5bea4a645a209cc75bb"));
+    boost::assign::map_list_of(0, uint256("0x00000cdaf97387c59806d02513f2d708dec38fd0aed377320d9962046d2d1fb4"));
 ;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -131,10 +131,10 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1551583711;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 0;
+        genesis.nNonce = 1559434;
 
         uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-        while (genesis.GetHash() > hashTarget)
+        /*while (genesis.GetHash() > hashTarget)
         {
             ++genesis.nNonce;
             if (genesis.nNonce == 0)
@@ -152,8 +152,8 @@ public:
         printf("MN nNonce %u\n", genesis.nNonce);
 	      printf("MN hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
 	      printf("MN hashMerkleRoot %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        printf("MN nTime %u\n", genesis.nTime);
-        assert(hashGenesisBlock == uint256("0x00000377e842c72eb7666b937b09153af325558cd021e5bea4a645a209cc75bb"));
+        printf("MN nTime %u\n", genesis.nTime);*/
+        assert(hashGenesisBlock == uint256("0x00000cdaf97387c59806d02513f2d708dec38fd0aed377320d9962046d2d1fb4"));
         assert(genesis.hashMerkleRoot == uint256("0xaf98abaac9007cb9e9e671a306aa5fd6825cdc7b5062789e115afa3564b7c108"));
 
         vSeeds.push_back(CDNSSeedData("95.179.180.98", "95.179.180.98"));
@@ -233,10 +233,10 @@ public:
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1551583711;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 3161322;
+        genesis.nNonce = 1559434;
 
 
-        assert(hashGenesisBlock == uint256("0x00000377e842c72eb7666b937b09153af325558cd021e5bea4a645a209cc75bb"));
+        assert(hashGenesisBlock == uint256("0x00000cdaf97387c59806d02513f2d708dec38fd0aed377320d9962046d2d1fb4"));
 
           vSeeds.push_back(CDNSSeedData("217.69.11.253", "217.69.11.253"));
           vSeeds.push_back(CDNSSeedData("217.69.10.153", "217.69.10.153"));
@@ -303,11 +303,11 @@ public:
         nSubsidyHalvingInterval = 262800;
         genesis.nTime = 1551583711;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 3161322;
+        genesis.nNonce = 1559434;
 
         hashGenesisBlock = genesis.GetHash();
         uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-        while (genesis.GetHash() > hashTarget)
+      /*  while (genesis.GetHash() > hashTarget)
         {
             ++genesis.nNonce;
             if (genesis.nNonce == 0)
@@ -323,11 +323,11 @@ public:
         printf("RT nNonce %u\n", genesis.nNonce);
 	    printf("RT hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
 	    printf("RT hashMerkleRoot %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        printf("RT nTime %u\n", genesis.nTime);
+        printf("RT nTime %u\n", genesis.nTime);*/
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 22988;
-        assert(hashGenesisBlock == uint256("0x00000377e842c72eb7666b937b09153af325558cd021e5bea4a645a209cc75bb"));
+        assert(hashGenesisBlock == uint256("0x00000cdaf97387c59806d02513f2d708dec38fd0aed377320d9962046d2d1fb4"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
