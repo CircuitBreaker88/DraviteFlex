@@ -4,12 +4,12 @@ DraviteFlex is a fast and modern cryptocurrency that can be mined using PoW, PoS
 
 * Name: DraviteFlex 
 * Short symbol: DRVF 
-* Max supply: 10 Billion 
-* Premine: 2%
+* Max supply: 15 Billion 
+* Premine: 5 525 000 000 ( 5 Billion for SWAP [Remaining Coins **will be burned**], Premine left for team 525 Million)
 * Algo: Quark 
 * Blocktime: 2 Minutes
 * Mining: Hybrid PoW + PoS 
-* Block halvings: Yearly
+* Block Reduction: 25% 
 
 Flexible MN collateral limits:
 * Min 10 000 000 DRVF
