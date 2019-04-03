@@ -50,18 +50,18 @@ configure:2797: loading site script /mingw32/etc/config.site
 | # This file is in public domain.
 | # Original author: Karlson2k (Evgeny Grin)
 | # Written for MSys2/MinGW64 to help running 'configure' scripts
-| 
+|
 | # Defaults for MinGW64-targeted programs
-| 
+|
 | # Set proper selfname on bash and fallback to default name on other shells
 | test -n "${BASH_SOURCE}" 2>/dev/null && config_site_me="${BASH_SOURCE[0]##*/}" || config_site_me=config.site
-| 
+|
 | # Set default 'host' to speedup configure
 | if test -z "$build_alias"; then
 |   build_alias="${MSYSTEM_CHOST-i686-w64-mingw32}"  && \
-|     $as_echo "$config_site_me:${as_lineno-$LINENO}: default build_alias set to $build_alias" >&5 
+|     $as_echo "$config_site_me:${as_lineno-$LINENO}: default build_alias set to $build_alias" >&5
 | fi
-| 
+|
 | # Set default 'prefix' to "/mingw32"
 | if ( test -z "$prefix" || test "x$prefix" = "xNONE" ) && \
 |    ( test -z "$exec_prefix" || test "x$exec_prefix" = "xNONE" ); then
@@ -109,7 +109,7 @@ COLLECT_LTO_WRAPPER=C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/lto-
 Target: i686-w64-mingw32
 Configured with: ../gcc-7.3.0/configure --prefix=/mingw32 --with-local-prefix=/mingw32/local --build=i686-w64-mingw32 --host=i686-w64-mingw32 --target=i686-w64-mingw32 --with-native-system-header-dir=/mingw32/i686-w64-mingw32/include --libexecdir=/mingw32/lib --enable-bootstrap --with-arch=i686 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw32 --with-mpfr=/mingw32 --with-mpc=/mingw32 --with-isl=/mingw32 --with-pkgversion='Rev2, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld --disable-sjlj-exceptions --with-dwarf2
 Thread model: posix
-gcc version 7.3.0 (Rev2, Built by MSYS2 project) 
+gcc version 7.3.0 (Rev2, Built by MSYS2 project)
 configure:3777: $? = 0
 configure:3766: g++ -V >&5
 g++.exe: error: unrecognized command line option '-V'
@@ -172,7 +172,7 @@ COLLECT_LTO_WRAPPER=C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/lto-
 Target: i686-w64-mingw32
 Configured with: ../gcc-7.3.0/configure --prefix=/mingw32 --with-local-prefix=/mingw32/local --build=i686-w64-mingw32 --host=i686-w64-mingw32 --target=i686-w64-mingw32 --with-native-system-header-dir=/mingw32/i686-w64-mingw32/include --libexecdir=/mingw32/lib --enable-bootstrap --with-arch=i686 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw32 --with-mpfr=/mingw32 --with-mpc=/mingw32 --with-isl=/mingw32 --with-pkgversion='Rev2, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld --disable-sjlj-exceptions --with-dwarf2
 Thread model: posix
-gcc version 7.3.0 (Rev2, Built by MSYS2 project) 
+gcc version 7.3.0 (Rev2, Built by MSYS2 project)
 configure:5140: $? = 0
 configure:5129: g++ -V >&5
 g++.exe: error: unrecognized command line option '-V'
@@ -198,14 +198,14 @@ configure: failed program was:
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
-| 
+|
 | int
 | main ()
 | {
 | #ifndef __GNUC__
 |        choke me
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -224,11 +224,11 @@ configure: failed program was:
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -245,11 +245,11 @@ configure: failed program was:
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -266,11 +266,11 @@ configure: failed program was:
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -297,7 +297,7 @@ COLLECT_LTO_WRAPPER=C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/lto-
 Target: i686-w64-mingw32
 Configured with: ../gcc-7.3.0/configure --prefix=/mingw32 --with-local-prefix=/mingw32/local --build=i686-w64-mingw32 --host=i686-w64-mingw32 --target=i686-w64-mingw32 --with-native-system-header-dir=/mingw32/i686-w64-mingw32/include --libexecdir=/mingw32/lib --enable-bootstrap --with-arch=i686 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw32 --with-mpfr=/mingw32 --with-mpc=/mingw32 --with-isl=/mingw32 --with-pkgversion='Rev2, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld --disable-sjlj-exceptions --with-dwarf2
 Thread model: posix
-gcc version 7.3.0 (Rev2, Built by MSYS2 project) 
+gcc version 7.3.0 (Rev2, Built by MSYS2 project)
 configure:5810: $? = 0
 configure:5799: gcc -V >&5
 gcc.exe: error: unrecognized command line option '-V'
@@ -563,7 +563,7 @@ configure: failed program was:
 | #ifdef HAVE_UNISTD_H
 | # include <unistd.h>
 | #endif
-| 
+|
 | #include <dlfcn.h>
 configure:9805: result: no
 configure:10070: checking for objdir
@@ -878,7 +878,7 @@ configure: failed program was:
 | 	       not a universal capable compiler
 | 	     #endif
 | 	     typedef int dummy;
-| 
+|
 configure:20554: g++ -c -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -w -I/c/devel/db-4.8.30/build_unix -I/c/devel/miniupnpc-1.9 -I/c/devel/openssl-1.0.2o/include -I/c/devel -I/c/devel/protobuf-2.6.1/src -I/c/devel/libpng-1.6.16 -I/c/devel/qrencode-3.4.4 -DMINIUPNP_STATICLIB -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB conftest.cpp >&5
 configure:20554: $? = 0
 configure:20572: g++ -c -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -w -I/c/devel/db-4.8.30/build_unix -I/c/devel/miniupnpc-1.9 -I/c/devel/openssl-1.0.2o/include -I/c/devel -I/c/devel/protobuf-2.6.1/src -I/c/devel/libpng-1.6.16 -I/c/devel/qrencode-3.4.4 -DMINIUPNP_STATICLIB -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB conftest.cpp >&5
@@ -929,14 +929,14 @@ configure: failed program was:
 | /* end confdefs.h.  */
 | #include <sys/types.h>
 | 		#include <sys/param.h>
-| 
+|
 | int
 | main ()
 | {
 | #if BYTE_ORDER != BIG_ENDIAN
 | 		 not big endian
 | 		#endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -1131,7 +1131,7 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -1235,7 +1235,7 @@ configure: failed program was:
 |   (void) strerror_r;
 | #endif
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -1293,20 +1293,20 @@ configure: failed program was:
 | /* Define strerror_r to an innocuous variant, in case <limits.h> declares strerror_r.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define strerror_r innocuous_strerror_r
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char strerror_r (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef strerror_r
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -1320,7 +1320,7 @@ configure: failed program was:
 | #if defined __stub_strerror_r || defined __stub___strerror_r
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -1524,11 +1524,11 @@ configure: failed program was:
 | #define HAVE_FUNC_ATTRIBUTE_DLLEXPORT 1
 | #define HAVE_FUNC_ATTRIBUTE_DLLIMPORT 1
 | /* end confdefs.h.  */
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -1586,11 +1586,11 @@ configure: failed program was:
 | #define HAVE_FUNC_ATTRIBUTE_DLLEXPORT 1
 | #define HAVE_FUNC_ATTRIBUTE_DLLIMPORT 1
 | /* end confdefs.h.  */
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -2150,7 +2150,7 @@ configure: failed program was:
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -2223,7 +2223,7 @@ configure: failed program was:
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -2299,7 +2299,7 @@ configure: failed program was:
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -2372,7 +2372,7 @@ configure: failed program was:
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -2445,7 +2445,7 @@ configure: failed program was:
 | #define HAVE_SYS_TYPES_H 1
 | #define HAVE_SYS_STAT_H 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -2530,7 +2530,7 @@ configure: failed program was:
 | #if HAVE_ENDIAN_H
 |                  #include <endian.h>
 |                  #endif
-| 
+|
 | int
 | main ()
 | {
@@ -2541,7 +2541,7 @@ configure: failed program was:
 |   (void) le32toh;
 | #endif
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -2612,7 +2612,7 @@ configure: failed program was:
 | #if HAVE_ENDIAN_H
 |                  #include <endian.h>
 |                  #endif
-| 
+|
 | int
 | main ()
 | {
@@ -2623,7 +2623,7 @@ configure: failed program was:
 |   (void) le64toh;
 | #endif
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -2695,7 +2695,7 @@ configure: failed program was:
 | #if HAVE_ENDIAN_H
 |                  #include <endian.h>
 |                  #endif
-| 
+|
 | int
 | main ()
 | {
@@ -2706,7 +2706,7 @@ configure: failed program was:
 |   (void) htole32;
 | #endif
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -2779,7 +2779,7 @@ configure: failed program was:
 | #if HAVE_ENDIAN_H
 |                  #include <endian.h>
 |                  #endif
-| 
+|
 | int
 | main ()
 | {
@@ -2790,7 +2790,7 @@ configure: failed program was:
 |   (void) htole64;
 | #endif
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -2864,7 +2864,7 @@ configure: failed program was:
 | #if HAVE_ENDIAN_H
 |                  #include <endian.h>
 |                  #endif
-| 
+|
 | int
 | main ()
 | {
@@ -2875,7 +2875,7 @@ configure: failed program was:
 |   (void) be32toh;
 | #endif
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -2950,7 +2950,7 @@ configure: failed program was:
 | #if HAVE_ENDIAN_H
 |                  #include <endian.h>
 |                  #endif
-| 
+|
 | int
 | main ()
 | {
@@ -2961,7 +2961,7 @@ configure: failed program was:
 |   (void) be64toh;
 | #endif
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -3037,7 +3037,7 @@ configure: failed program was:
 | #if HAVE_ENDIAN_H
 |                  #include <endian.h>
 |                  #endif
-| 
+|
 | int
 | main ()
 | {
@@ -3048,7 +3048,7 @@ configure: failed program was:
 |   (void) htobe32;
 | #endif
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -3125,7 +3125,7 @@ configure: failed program was:
 | #if HAVE_ENDIAN_H
 |                  #include <endian.h>
 |                  #endif
-| 
+|
 | int
 | main ()
 | {
@@ -3136,7 +3136,7 @@ configure: failed program was:
 |   (void) htobe64;
 | #endif
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -3303,17 +3303,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <bdb4.8/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -3387,17 +3387,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <libdb4.8/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -3471,17 +3471,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <db4.8/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -3555,17 +3555,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <bdb48/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -3639,17 +3639,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <libdb48/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -3723,17 +3723,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <db48/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -3807,17 +3807,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <bdb4/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -3891,17 +3891,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <libdb4/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -3975,17 +3975,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <db4/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -4059,17 +4059,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <bdb5/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -4143,17 +4143,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <libdb5/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -4227,17 +4227,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <db5/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -4311,17 +4311,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <bdb/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -4395,17 +4395,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <libdb/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -4479,17 +4479,17 @@ configure: failed program was:
 | #define HAVE_DECL_HTOBE64 0
 | #define HAVE_VISIBILITY_ATTRIBUTE 1
 | /* end confdefs.h.  */
-| 
+|
 |       #include <db/db_cxx.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |       #if !((DB_VERSION_MAJOR == 4 && DB_VERSION_MINOR >= 8) || DB_VERSION_MAJOR > 4)
 |         #error "failed to find bdb 4.8+"
 |       #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -4590,15 +4590,15 @@ configure:23538: checking for main in -limm32
 configure:23557: g++ -o conftest.exe  -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -w  -Wstack-protector -fstack-protector-all -I/c/devel/qt5.5.0-static/include -I/c/devel/qt5.5.0-static/include/QtCore -I/c/devel/qt5.5.0-static/include/QtGui -I/c/devel/qt5.5.0-static/include/QtWidgets -I/c/devel/qt5.5.0-static/include/QtNetwork -I/c/devel/qt5.5.0-static/include/QtTest -I/c/devel/qt5.5.0-static/include/QtDBus -I/c/devel/db-4.8.30/build_unix -I/c/devel/miniupnpc-1.9 -I/c/devel/openssl-1.0.2o/include -I/c/devel -I/c/devel/protobuf-2.6.1/src -I/c/devel/libpng-1.6.16 -I/c/devel/qrencode-3.4.4 -DMINIUPNP_STATICLIB -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -L/c/deps/db-4.8.30/build_unix -L/c/devel/openssl-1.0.1k -L/c/devel/miniupnpc-1.9 -L/c/devel/protobuf-2.6.1/src/.libs -L/c/devel/libpng-1.6.16/.libs -L/c/devel/qrencode-3.4.4/.libs -L/c/devel/qt5.5.0-static/lib -L/c/devel/qt5.5.0-static/plugins -Wl,--large-address-aware  -Wl,--dynamicbase -Wl,--nxcompat conftest.cpp -limm32   -L/c/devel/qt5.5.0-static/lib >&5
 configure:23557: $? = 0
 configure:23566: result: yes
-configure:23602: checking for main in -lz 
+configure:23602: checking for main in -lz
 configure:23621: g++ -o conftest.exe  -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -w  -Wstack-protector -fstack-protector-all -I/c/devel/qt5.5.0-static/include -I/c/devel/qt5.5.0-static/include/QtCore -I/c/devel/qt5.5.0-static/include/QtGui -I/c/devel/qt5.5.0-static/include/QtWidgets -I/c/devel/qt5.5.0-static/include/QtNetwork -I/c/devel/qt5.5.0-static/include/QtTest -I/c/devel/qt5.5.0-static/include/QtDBus -I/c/devel/db-4.8.30/build_unix -I/c/devel/miniupnpc-1.9 -I/c/devel/openssl-1.0.2o/include -I/c/devel -I/c/devel/protobuf-2.6.1/src -I/c/devel/libpng-1.6.16 -I/c/devel/qrencode-3.4.4 -DMINIUPNP_STATICLIB -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -L/c/deps/db-4.8.30/build_unix -L/c/devel/openssl-1.0.1k -L/c/devel/miniupnpc-1.9 -L/c/devel/protobuf-2.6.1/src/.libs -L/c/devel/libpng-1.6.16/.libs -L/c/devel/qrencode-3.4.4/.libs -L/c/devel/qt5.5.0-static/lib -L/c/devel/qt5.5.0-static/plugins -Wl,--large-address-aware  -Wl,--dynamicbase -Wl,--nxcompat conftest.cpp -lz   -limm32  -L/c/devel/qt5.5.0-static/lib >&5
 configure:23621: $? = 0
 configure:23631: result: yes
-configure:23654: checking for main in -lpng 
+configure:23654: checking for main in -lpng
 configure:23673: g++ -o conftest.exe  -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -w  -Wstack-protector -fstack-protector-all -I/c/devel/qt5.5.0-static/include -I/c/devel/qt5.5.0-static/include/QtCore -I/c/devel/qt5.5.0-static/include/QtGui -I/c/devel/qt5.5.0-static/include/QtWidgets -I/c/devel/qt5.5.0-static/include/QtNetwork -I/c/devel/qt5.5.0-static/include/QtTest -I/c/devel/qt5.5.0-static/include/QtDBus -I/c/devel/db-4.8.30/build_unix -I/c/devel/miniupnpc-1.9 -I/c/devel/openssl-1.0.2o/include -I/c/devel -I/c/devel/protobuf-2.6.1/src -I/c/devel/libpng-1.6.16 -I/c/devel/qrencode-3.4.4 -DMINIUPNP_STATICLIB -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -L/c/deps/db-4.8.30/build_unix -L/c/devel/openssl-1.0.1k -L/c/devel/miniupnpc-1.9 -L/c/devel/protobuf-2.6.1/src/.libs -L/c/devel/libpng-1.6.16/.libs -L/c/devel/qrencode-3.4.4/.libs -L/c/devel/qt5.5.0-static/lib -L/c/devel/qt5.5.0-static/plugins -Wl,--large-address-aware  -Wl,--dynamicbase -Wl,--nxcompat conftest.cpp -lpng   -lz  -limm32  -L/c/devel/qt5.5.0-static/lib >&5
 configure:23673: $? = 0
 configure:23683: result: yes
-configure:23706: checking for main in -ljpeg 
+configure:23706: checking for main in -ljpeg
 configure:23725: g++ -o conftest.exe  -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -w  -Wstack-protector -fstack-protector-all -I/c/devel/qt5.5.0-static/include -I/c/devel/qt5.5.0-static/include/QtCore -I/c/devel/qt5.5.0-static/include/QtGui -I/c/devel/qt5.5.0-static/include/QtWidgets -I/c/devel/qt5.5.0-static/include/QtNetwork -I/c/devel/qt5.5.0-static/include/QtTest -I/c/devel/qt5.5.0-static/include/QtDBus -I/c/devel/db-4.8.30/build_unix -I/c/devel/miniupnpc-1.9 -I/c/devel/openssl-1.0.2o/include -I/c/devel -I/c/devel/protobuf-2.6.1/src -I/c/devel/libpng-1.6.16 -I/c/devel/qrencode-3.4.4 -DMINIUPNP_STATICLIB -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -L/c/deps/db-4.8.30/build_unix -L/c/devel/openssl-1.0.1k -L/c/devel/miniupnpc-1.9 -L/c/devel/protobuf-2.6.1/src/.libs -L/c/devel/libpng-1.6.16/.libs -L/c/devel/qrencode-3.4.4/.libs -L/c/devel/qt5.5.0-static/lib -L/c/devel/qt5.5.0-static/plugins -Wl,--large-address-aware  -Wl,--dynamicbase -Wl,--nxcompat conftest.cpp -ljpeg   -lpng  -lz  -limm32  -L/c/devel/qt5.5.0-static/lib >&5
 C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -ljpeg
 collect2.exe: error: ld returned 1 exit status
@@ -4674,8 +4674,8 @@ configure: failed program was:
 | #define HAVE_LIBZ_ 1
 | #define HAVE_LIBPNG_ 1
 | /* end confdefs.h.  */
-| 
-| 
+|
+|
 | int
 | main ()
 | {
@@ -4762,7 +4762,7 @@ configure: failed program was:
 | #define HAVE_LIBZ_ 1
 | #define HAVE_LIBPNG_ 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -4780,7 +4780,7 @@ configure: failed program was:
 configure:23788: g++ -o conftest.exe  -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -w  -Wstack-protector -fstack-protector-all -I/c/devel/qt5.5.0-static/include -I/c/devel/qt5.5.0-static/include/QtCore -I/c/devel/qt5.5.0-static/include/QtGui -I/c/devel/qt5.5.0-static/include/QtWidgets -I/c/devel/qt5.5.0-static/include/QtNetwork -I/c/devel/qt5.5.0-static/include/QtTest -I/c/devel/qt5.5.0-static/include/QtDBus -I/c/devel/db-4.8.30/build_unix -I/c/devel/miniupnpc-1.9 -I/c/devel/openssl-1.0.2o/include -I/c/devel -I/c/devel/protobuf-2.6.1/src -I/c/devel/libpng-1.6.16 -I/c/devel/qrencode-3.4.4 -DMINIUPNP_STATICLIB -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -L/c/deps/db-4.8.30/build_unix -L/c/devel/openssl-1.0.1k -L/c/devel/miniupnpc-1.9 -L/c/devel/protobuf-2.6.1/src/.libs -L/c/devel/libpng-1.6.16/.libs -L/c/devel/qrencode-3.4.4/.libs -L/c/devel/qt5.5.0-static/lib -L/c/devel/qt5.5.0-static/plugins -Wl,--large-address-aware  -Wl,--dynamicbase -Wl,--nxcompat conftest.cpp -lqtpcre  -lpng  -lz  -limm32  -L/c/devel/qt5.5.0-static/lib >&5
 configure:23788: $? = 0
 configure:23805: result: -lqtpcre
-configure:23824: checking for library containing hb_ot_tags_from_script 
+configure:23824: checking for library containing hb_ot_tags_from_script
 configure:23855: g++ -o conftest.exe  -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -w  -Wstack-protector -fstack-protector-all -I/c/devel/qt5.5.0-static/include -I/c/devel/qt5.5.0-static/include/QtCore -I/c/devel/qt5.5.0-static/include/QtGui -I/c/devel/qt5.5.0-static/include/QtWidgets -I/c/devel/qt5.5.0-static/include/QtNetwork -I/c/devel/qt5.5.0-static/include/QtTest -I/c/devel/qt5.5.0-static/include/QtDBus -I/c/devel/db-4.8.30/build_unix -I/c/devel/miniupnpc-1.9 -I/c/devel/openssl-1.0.2o/include -I/c/devel -I/c/devel/protobuf-2.6.1/src -I/c/devel/libpng-1.6.16 -I/c/devel/qrencode-3.4.4 -DMINIUPNP_STATICLIB -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -L/c/deps/db-4.8.30/build_unix -L/c/devel/openssl-1.0.1k -L/c/devel/miniupnpc-1.9 -L/c/devel/protobuf-2.6.1/src/.libs -L/c/devel/libpng-1.6.16/.libs -L/c/devel/qrencode-3.4.4/.libs -L/c/devel/qt5.5.0-static/lib -L/c/devel/qt5.5.0-static/plugins -Wl,--large-address-aware  -Wl,--dynamicbase -Wl,--nxcompat conftest.cpp -lqtpcre -lpng  -lz  -limm32  -L/c/devel/qt5.5.0-static/lib >&5
 C:\msys64\tmp\ccC7FGaE.o: In function `main':
 C:\Users\wolfgang\Documents\Privat\Coins\Dev\DraviteFlex\draviteflex/conftest.cpp:82: undefined reference to `hb_ot_tags_from_script'
@@ -4857,7 +4857,7 @@ configure: failed program was:
 | #define HAVE_LIBZ_ 1
 | #define HAVE_LIBPNG_ 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -4875,11 +4875,11 @@ configure: failed program was:
 configure:23855: g++ -o conftest.exe  -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -w  -Wstack-protector -fstack-protector-all -I/c/devel/qt5.5.0-static/include -I/c/devel/qt5.5.0-static/include/QtCore -I/c/devel/qt5.5.0-static/include/QtGui -I/c/devel/qt5.5.0-static/include/QtWidgets -I/c/devel/qt5.5.0-static/include/QtNetwork -I/c/devel/qt5.5.0-static/include/QtTest -I/c/devel/qt5.5.0-static/include/QtDBus -I/c/devel/db-4.8.30/build_unix -I/c/devel/miniupnpc-1.9 -I/c/devel/openssl-1.0.2o/include -I/c/devel -I/c/devel/protobuf-2.6.1/src -I/c/devel/libpng-1.6.16 -I/c/devel/qrencode-3.4.4 -DMINIUPNP_STATICLIB -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -L/c/deps/db-4.8.30/build_unix -L/c/devel/openssl-1.0.1k -L/c/devel/miniupnpc-1.9 -L/c/devel/protobuf-2.6.1/src/.libs -L/c/devel/libpng-1.6.16/.libs -L/c/devel/qrencode-3.4.4/.libs -L/c/devel/qt5.5.0-static/lib -L/c/devel/qt5.5.0-static/plugins -Wl,--large-address-aware  -Wl,--dynamicbase -Wl,--nxcompat conftest.cpp -lqtharfbuzzng  -lqtpcre -lpng  -lz  -limm32  -L/c/devel/qt5.5.0-static/lib >&5
 configure:23855: $? = 0
 configure:23872: result: -lqtharfbuzzng
-configure:23892: checking for main in -lQt5Core   
+configure:23892: checking for main in -lQt5Core
 configure:23911: g++ -o conftest.exe  -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -w  -Wstack-protector -fstack-protector-all -I/c/devel/qt5.5.0-static/include -I/c/devel/qt5.5.0-static/include/QtCore -I/c/devel/qt5.5.0-static/include/QtGui -I/c/devel/qt5.5.0-static/include/QtWidgets -I/c/devel/qt5.5.0-static/include/QtNetwork -I/c/devel/qt5.5.0-static/include/QtTest -I/c/devel/qt5.5.0-static/include/QtDBus -I/c/devel/db-4.8.30/build_unix -I/c/devel/miniupnpc-1.9 -I/c/devel/openssl-1.0.2o/include -I/c/devel -I/c/devel/protobuf-2.6.1/src -I/c/devel/libpng-1.6.16 -I/c/devel/qrencode-3.4.4 -DMINIUPNP_STATICLIB -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -L/c/deps/db-4.8.30/build_unix -L/c/devel/openssl-1.0.1k -L/c/devel/miniupnpc-1.9 -L/c/devel/protobuf-2.6.1/src/.libs -L/c/devel/libpng-1.6.16/.libs -L/c/devel/qrencode-3.4.4/.libs -L/c/devel/qt5.5.0-static/lib -L/c/devel/qt5.5.0-static/plugins -Wl,--large-address-aware  -Wl,--dynamicbase -Wl,--nxcompat conftest.cpp -lQt5Core     -lqtharfbuzzng -lqtpcre -lpng  -lz  -limm32  -L/c/devel/qt5.5.0-static/lib >&5
 configure:23911: $? = 0
 configure:23921: result: yes
-configure:23954: checking for main in -lQt5Gui    
+configure:23954: checking for main in -lQt5Gui
 configure:23973: g++ -o conftest.exe  -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -w  -Wstack-protector -fstack-protector-all -I/c/devel/qt5.5.0-static/include -I/c/devel/qt5.5.0-static/include/QtCore -I/c/devel/qt5.5.0-static/include/QtGui -I/c/devel/qt5.5.0-static/include/QtWidgets -I/c/devel/qt5.5.0-static/include/QtNetwork -I/c/devel/qt5.5.0-static/include/QtTest -I/c/devel/qt5.5.0-static/include/QtDBus -I/c/devel/db-4.8.30/build_unix -I/c/devel/miniupnpc-1.9 -I/c/devel/openssl-1.0.2o/include -I/c/devel -I/c/devel/protobuf-2.6.1/src -I/c/devel/libpng-1.6.16 -I/c/devel/qrencode-3.4.4 -DMINIUPNP_STATICLIB -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -L/c/deps/db-4.8.30/build_unix -L/c/devel/openssl-1.0.1k -L/c/devel/miniupnpc-1.9 -L/c/devel/protobuf-2.6.1/src/.libs -L/c/devel/libpng-1.6.16/.libs -L/c/devel/qrencode-3.4.4/.libs -L/c/devel/qt5.5.0-static/lib -L/c/devel/qt5.5.0-static/plugins -Wl,--large-address-aware  -Wl,--dynamicbase -Wl,--nxcompat conftest.cpp -lQt5Gui      -lQt5Core    -lqtharfbuzzng -lqtpcre -lpng  -lz  -limm32  -L/c/devel/qt5.5.0-static/lib >&5
 configure:23973: $? = 0
 configure:23983: result: yes
@@ -4986,8 +4986,8 @@ configure: failed program was:
 | #define HAVE_LIBQT5WIDGETS 1
 | #define HAVE_LIBQT5TEST 1
 | /* end confdefs.h.  */
-| 
-| 
+|
+|
 | int
 | main ()
 | {
@@ -5297,11 +5297,11 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 |           #if QT_VERSION >= 0x050400
 |           choke;
 |           #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -5399,11 +5399,11 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 |           #if defined(QT_REDUCE_RELOCATIONS)
 |               choke;
 |           #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -5537,19 +5537,19 @@ configure: failed program was:
 | #define QT_QPA_PLATFORM_WINDOWS 1
 | #define HAVE_QT5 1
 | /* end confdefs.h.  */
-| 
+|
 |     #include <boost/version.hpp>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |     #if BOOST_VERSION >= 102000
 |     // Everything is okay
 |     #else
 |     #  error Boost version is too old
 |     #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -5953,7 +5953,7 @@ configure: failed program was:
 | #define HAVE_WORKING_BOOST_SLEEP_FOR 1
 | #define ENABLE_ZMQ 0
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -5970,7 +5970,7 @@ configure: failed program was:
 | }
 configure:28371: result: no
 configure:28376: WARNING: libzmq >= 4.0 not found, disabling zmq support
-configure:28396: checking for main in -lprotobuf 
+configure:28396: checking for main in -lprotobuf
 configure:28415: g++ -o conftest.exe -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -w  -Wstack-protector -fstack-protector-all -fvisibility=hidden -I/c/devel/db-4.8.30/build_unix -I/c/devel/miniupnpc-1.9 -I/c/devel/openssl-1.0.2o/include -I/c/devel -I/c/devel/protobuf-2.6.1/src -I/c/devel/libpng-1.6.16 -I/c/devel/qrencode-3.4.4 -DMINIUPNP_STATICLIB -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -DHAVE_QT5 -L/c/deps/db-4.8.30/build_unix -L/c/devel/openssl-1.0.1k -L/c/devel/miniupnpc-1.9 -L/c/devel/protobuf-2.6.1/src/.libs -L/c/devel/libpng-1.6.16/.libs -L/c/devel/qrencode-3.4.4/.libs -L/c/devel/qt5.5.0-static/lib -L/c/devel/qt5.5.0-static/plugins -Wl,--large-address-aware  -Wl,--dynamicbase -Wl,--nxcompat conftest.cpp -lprotobuf   -lssp -lcrypt32 -liphlpapi -lshlwapi -lmswsock -lws2_32 -ladvapi32 -lrpcrt4 -luuid -loleaut32 -lole32 -lcomctl32 -lshell32 -lwinmm -lwinspool -lcomdlg32 -lgdi32 -luser32 -lkernel32 -lmingwthrd  >&5
 configure:28415: $? = 0
 configure:28425: result: yes
@@ -6040,11 +6040,11 @@ configure:29368: creating ./config.status
 This file was extended by DraviteFlex Core config.status 1.0.0, which was
 generated by GNU Autoconf 2.69.  Invocation command line was
 
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status 
+  CONFIG_FILES    =
+  CONFIG_HEADERS  =
+  CONFIG_LINKS    =
+  CONFIG_COMMANDS =
+  $ ./config.status
 
 on DESKTOP-43ECC5Q
 
@@ -6402,7 +6402,7 @@ CC='gcc'
 CCACHE=''
 CCDEPMODE='depmode=gcc3'
 CFLAGS='-g -O2'
-CLIENT_VERSION_BUILD='1'
+CLIENT_VERSION_BUILD='9'
 CLIENT_VERSION_IS_RELEASE='true'
 CLIENT_VERSION_MAJOR='1'
 CLIENT_VERSION_MINOR='0'
@@ -6734,9 +6734,9 @@ target_alias=''
 #define CLIENT_VERSION_MAJOR 1
 #define CLIENT_VERSION_MINOR 0
 #define CLIENT_VERSION_REVISION 0
-#define CLIENT_VERSION_BUILD 1
+#define CLIENT_VERSION_BUILD 9
 #define CLIENT_VERSION_IS_RELEASE true
-#define COPYRIGHT_YEAR 2018
+#define COPYRIGHT_YEAR 2019
 
 configure: exit 0
 
@@ -6747,10 +6747,10 @@ configure: exit 0
 This file was extended by DraviteFlex Core config.status 1.0.0, which was
 generated by GNU Autoconf 2.69.  Invocation command line was
 
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
+  CONFIG_FILES    =
+  CONFIG_HEADERS  =
+  CONFIG_LINKS    =
+  CONFIG_COMMANDS =
   $ ./config.status src/Makefile depfiles
 
 on DESKTOP-43ECC5Q
